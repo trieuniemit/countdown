@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    background: #2196F3;
+    font-family: 'Alata', sans-serif;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.team {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    text-shadow: 2px 4px 1px #4e91d5;
+    color: #fff;
+}
+
+.team h1 {
+    margin-bottom: 0;
+}
+
+.team h2 {
+    margin-top: 0;
+}
+
+.count {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    user-select: none;
+    text-shadow: 5px 6px 3px #4e91d5;
+    font-size: 500px;
+    color: #fff;
+    transform: translateY(-50%);
+}
